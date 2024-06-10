@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+    <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Проект</title>
+   <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Black.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Italic.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+   </script>
+   <script defer src="js/main.js"></script>
+</head>
+
+    <body class="page__body">
+        <div class="site-container">
+            <header class="header header-transparent lock__padding">
+                <div class="container header__container">
+                    <button class="btn-reset btn btn__menu">
+                        <span>Меню</span>
+                        <span class='burger'></span>
+                    </button>
+                    <a href="tel:+7 495 961 78  38" class="header__tel link">+7 495 961-78-38</a>
+                    <a href="#" class="whatsap social__link">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#whatsap"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="tg social__link">
+                        <svg>
+                            <use xlink:href="img/sprite.svg#tg"></use>
+                        </svg>
+                    </a>
+                    <div class="header__logotypes">
+                        <div class="header__design">
+                            <img src="/img/designWhite.png" class="img-contain" width="115" height="39" alt="design">
+                        </div>
+                        <div class="header__logo">
+                            <img src="/img/logoWhite.png" class="img-contain" width="115" height="47" alt="design">
+                            <img src="/img/logo.png" class="img-contain" width="115" height="47" alt="design">
+                        </div>
+                    </div>
+                    <button data-popupId="popupForm" class="btn-reset btn header__project popup__link">
+                        <svg class="header__ico">
+                            <use xlink:href="img/sprite.svg#stick"></use>
+                        </svg>
+                        <span>Заказать проект</span>
+                    </button>
+                    <a href='contact.html' class="btn-reset btn header__contact">
+                        <span>контакты</span>
+                    </a>
+                    <nav class="nav">
+                        <div class="nav__content">
+                            <a href="tel:+7 495 961 78 38" class="nav__tel link">+7 495 961-78-38</a>
+                            <ul class="list-reset nav__list">
+                                <li class="nav__item acardion">
+                                    <button class="btn-reset acardion__btn link">
+                                        <span>Частные интерьеры</span>
+                                    </button>
+                                    <div class="acardion__body">
+                                        <ul class="list-reset acardion__content">
+                                            <li class="acardion__item">
+                                                <a href="interiors.html#command" class="acardion__link link">О нас</a>
+                                            </li>
+                                            <li class="acardion__item">
+                                                <a href="interiors.html#levels" class="acardion__link link">Этапы работ</a>
+                                            </li>
+                                            <li class="acardion__item">
+                                                <a href="interiors.html#interiorsPortfolio" class="acardion__link link">Портфолио</a>
+                                            </li>
+                                            <li class="acardion__item">
+                                                <a href="interiors.html#service" class="acardion__link link">Услуги</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="interiors.html" class="nav__link link">Общественные пространства</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="news.html" class="nav__link link">Статьи</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="publications.html" class="nav__link link">Публикации</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="contact.html" class="nav__link link">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="nav__socials">
+                                <a href="#" class="whatsap social__link">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#whatsap"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" class="tg social__link">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#tg"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <button data-popupId="popupForm" class="btn-reset btn header__project popup__link">
+                                <svg class="header__ico">
+                                    <use xlink:href="img/sprite.svg#stick"></use>
+                                </svg>
+                                <span>Заказать проект</span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <section class="project">
+                    <div class="project__container">
+                        <div class="project__content">
+                            <div class="project__img">
+                                <picture>
+                                    <source srcset="/img/project.webp" type="image/webp">
+                                    <img loading="lazy" src="/img/project.jpg" class="img-cover" width="1506" height="516" alt="project">
+                                </picture>
+                            </div>
+                            <span class='project__text'>Портфолио</span>
+                            <h1 class="project__title text-anim-text"><span>Интерьер квартиры ЖК Ясное (70 кв.м)</span></h1>
+                            <div class="mouse">
+                                <div class="mouse__ico">
+                                    <img loading="lazy" src="/img/svg/mouse.svg" class="img-contain" width="26" height="37" alt="mouse">
+                                </div>
+                                <div class="mouse__arrow">
+                                    <img loading="lazy" src="/img/svg/mouseArrow.svg" class="img-contain" width="25" height="24" alt="mouse">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="projects">
+                    <div class="projects__content">
+                        <div class="projectsDecor">
+                            <img loading="lazy" src="/img/svg/projectsDecor.svg" class="img-contain" width="500" height="500" alt="projectsDecor">
+                        </div>
+                        <div class="projectsImg" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
+                            <picture>
+                                <source srcset="/img/projects.webp" type="image/webp">
+                                <img loading="lazy" src="/img/projects.png" class="img-contain" width="407" height="300" alt="projects">
+                            </picture>
+                        </div>
+                        <div class="container projects__container">
+                            <p class="projects__text">В качестве основного и акцентного освещения подойдет приглушенный свет: он создает успокаивающее пространство. Рекомендую выбирать лампочки с цветовой температурой до 4000 кельвинов и использовать абажур — он смягчает яркость свечения.<br>
+                                Это тонкое сочетание минимализма с уютом. Классический минимализм слишком строгий и безжизненный, поэтому он надоел людям. На смену ему пришла более функциональная и приятная «мягкая» версия. Она сочетает лучшее из минимализма — много света, пространства и чистоту — с теплотой и уютом. В таком интерьере больше мягких материалов, текстиля и разнообразного декора.</p>
+                            <div class="projects__btns">
+                                <button class="btn-reset projects__btn link _active">Стало</button>
+                                <button class="btn-reset projects__btn link">Было</button>
+                                <button class="btn-reset projects__btn link">Планировка</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper projects__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide projects__items">
+                                <a href="/img/projects01.jpg" data-fancybox="gallery" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects01.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects01.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/portfolio02.jpg" data-fancybox="gallery" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/portfolio02.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/portfolio02.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/projects03.jpg" data-fancybox="gallery" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects03.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects03.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/projects04.jpg" data-fancybox="gallery" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects04.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects04.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/projects05.jpg" data-fancybox="gallery" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects05.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects05.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <div data-id='LvQossUx7ss' class="projects__item youtube">
+                                    <picture>
+                                        <source srcset="/img/article04.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/article04.jpg" class="img-cover" width="936" height="378" alt="article">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide projects__items">
+                                <a href="/img/projects01.jpg" data-fancybox="gallery1" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects01.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects01.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/portfolio02.jpg" data-fancybox="gallery1" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/portfolio02.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/portfolio02.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <div data-id='LvQossUx7ss' class="projects__item youtube">
+                                    <picture>
+                                        <source srcset="/img/article04.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/article04.jpg" class="img-cover" width="936" height="378" alt="article">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-slide projects__items">
+                                <a href="/img/projects04.jpg" data-fancybox="gallery2" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/projects04.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/projects04.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/portfolio01.jpg" data-fancybox="gallery2" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/portfolio01.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/portfolio01.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                                <a href="/img/portfolio05.jpg" data-fancybox="gallery2" class="projects__item">
+                                    <picture>
+                                        <source srcset="/img/portfolio05.webp" type="image/webp">
+                                        <img loading="lazy" src="/img/portfolio05.jpg" class="img-cover" width="517" height="351" alt="projects">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id='application' class="application">
+                    <div class="application__imgOtherThree" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
+                        <picture>
+                            <source srcset="/img/imgOtherThree.webp" type="image/webp">
+                            <img loading="lazy" src="/img/imgOtherThree.png" class="img-contain" width="520" height="377" alt="decor">
+                        </picture>
+                    </div>
+                    <div class="application__imgOtherTwo" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom" data-aos-once="true">
+                        <picture>
+                            <source srcset="/img/applicationDecorOtherTwo.webp" type="image/webp">
+                            <img loading="lazy" src="/img/applicationDecorOtherTwo.png" class="img-contain" width="520" height="377" alt="decor">
+                        </picture>
+                    </div>
+                    <div class="container application___container">
+                        <h2 class="application__title">ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ РАСЧЕТ ДИЗАЙН-ПРОЕКТА</h2>
+                        <form class="application__form">
+                            <div class="input">
+                                <div class="input__ico">
+                                    <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                                </div>
+                                <input type="text" class="field" placeholder='Ваше имя'>
+                            </div>
+                            <div class="input">
+                                <div class="input__ico">
+                                    <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                                </div>
+                                <input type="text" class="field __tel" placeholder='Телефон'>
+                            </div>
+                            <div class="input">
+                                <div class="input__ico">
+                                    <img loading="lazy" src="img/svg/field03.svg" class="img-contain" width="16" height="16" alt="input ico">
+                                </div>
+                                <input type="text" class="field" placeholder='Площадь проекта'>
+                            </div>
+                            <button class="btn-reset btn application__btn"><span>Отправить заявку</span></button>
+                            <div class="input">
+                                <div class="input__ico">
+                                    <img loading="lazy" src="img/svg/field04.svg" class="img-contain" width="16" height="16" alt="input ico">
+                                </div>
+                                <input type="text" class="field" placeholder='Тип помещения'>
+                            </div>
+                            <span class="application__text">Отправляя заявку, я принимаю условия <a data-popupId='popupText' href='#' class='link popup__link'>обработки персональных данных.</a></span>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__column">
+        <div class="footer__logo">
+          <img src="/img/footerLogo.png" class="img-contain" width="122" height="51" alt="logo">
+        </div>
+        <span class="footer__text">© 2023 tashimi.ru</span>
+      </div>
+      <div class="footer__column footer__column-contact">
+        <a href="tel:+ 7 968 861 28 30" class="footer__tel link">+ 7 968 861 28 30</a>
+        <div class="footer__socials">
+          <a href="#" class="whatsap social__link">
+            <svg>
+              <use xlink:href="img/sprite.svg#whatsap"></use>
+            </svg>
+          </a>
+          <a href="#" class="tg social__link">
+            <svg>
+              <use xlink:href="img/sprite.svg#tg"></use>
+            </svg>
+          </a>
+        </div>
+        <a href="mailto:art@tashimi.ru" class="footer__mail link">art@tashimi.ru</a>
+        <button data-popupId="popupTel" class="btn-reset btn footer__btn popup__link"><span>Перезвоните мне</span></button>
+      </div>
+      <div class="footer__column footer__column-links">
+        <span class='footer__link'>Частные интерьеры</span>
+        <a href="interiors.html#command" class="footer__link footer__link-small link">О нас</a>
+        <a href="interiors.html#interiorsPortfolio" class="footer__link footer__link-small link">Портфолио</a>
+        <a href="service.html" class="footer__link footer__link-small link">Услуги</a>
+      </div>
+      <div class="footer__column footer__column-links">
+        <a href='interiors.html' class='footer__link link'>Общественные пространства</a>
+      </div>
+      <div class="footer__column footer__column-links">
+        <a href='news.html' class='footer__link link'>Статьи</a>
+        <a href='publications.html' class='footer__link link'>Публикации</a>
+        <a href='contact.html' class='footer__link link'>Контакты</a>
+      </div>
+    </div>
+    <span class="footer__description">Сделано в <a href='#' class='link'> SOMA design</a></span>
+  </div>
+</footer>
+
+            <div id='popupForm' class="popup">
+    <div class="popup__body">
+        <div class="container popup__content">
+            <button class="btn-reset close__popup popup__close"></button>
+            <div class="application__decor">
+                <img loading="lazy" src="img/svgImg/applicationVector.svg" class="img-contain" width="338" height="386" alt="decor">
+            </div>
+            <h2 class="application__title">ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ РАСЧЕТ ДИЗАЙН-ПРОЕКТА</h2>
+            <form class="application__form">
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Ваше имя'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field __tel" placeholder='Телефон'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field03.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Площадь проекта'>
+                </div>
+                <button class="btn-reset btn application__btn"><span>Отправить заявку</span></button>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field04.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Тип помещения'>
+                </div>
+                <span class="application__text">Отправляя заявку, я принимаю условия <a href='#' data-popupId='popupText' class='link popup__link'>обработки персональных данных.</a></span>
+            </form>
+        </div>
+    </div>
+</div>
+<div id='popupText' class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <button class="btn-reset  popup__close close__popup"></button>
+            <div class="container popup__text-page">
+                <span class="popup__title">Заголовок раздела</span>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__title">Заголовок раздела</span>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id='popupTel' class="popup">
+    <div class="popup__body">
+        <div class="container popup__content">
+            <button class="btn-reset close__popup popup__close"></button>
+            <div class="application__decor">
+                <img loading="lazy" src="img/svgImg/applicationVector.svg" class="img-contain" width="338" height="386" alt="decor">
+            </div>
+            <h2 class="application__title">ОСТАВЬТЕ ТЕЛЕФОН И МЫ ВАМ ПЕРЕЗВОНИМ</h2>
+            <form class="application__form application__form-tel">
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Ваше имя'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field __tel" placeholder='Телефон'>
+                </div>
+                <button class="btn-reset btn application__btn"><span>Отправить</span></button>
+                <span class="application__text">Отправляя заявку, я принимаю условия <a href='#' data-popupId='popupText' class='link popup__link'>обработки персональных данных.</a></span>
+            </form>
+        </div>
+    </div>
+</div>
+        </div>
+    </body>
+
+</html>

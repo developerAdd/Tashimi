@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+   <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Главная</title>
+   <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Black.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Italic.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+   </script>
+   <script defer src="js/main.js"></script>
+</head>
+
+   <body class="page__body">
+      <div class="site-container">
+         <header class="header header-transparent lock__padding">
+            <div class="container header__container">
+               <button class="btn-reset btn btn__menu">
+                  <span>Меню</span>
+                  <span class='burger'></span>
+               </button>
+               <a href="tel:+7 495 961 78  38" class="header__tel link">+7 495 961-78-38</a>
+               <a href="#" class="whatsap social__link">
+                  <svg>
+                     <use xlink:href="img/sprite.svg#whatsap"></use>
+                  </svg>
+               </a>
+               <a href="#" class="tg social__link">
+                  <svg>
+                     <use xlink:href="img/sprite.svg#tg"></use>
+                  </svg>
+               </a>
+               <div class="header__logotypes">
+                  <div class="header__design">
+                     <img src="/img/designWhite.png" class="img-contain" width="115" height="39" alt="design">
+                  </div>
+                  <div class="header__logo">
+                     <img src="/img/logoWhite.png" class="img-contain" width="115" height="47" alt="design">
+                     <img src="/img/logo.png" class="img-contain" width="115" height="47" alt="design">
+                  </div>
+               </div>
+               <button data-popupId="popupForm" class="btn-reset btn header__project popup__link">
+                  <svg class="header__ico">
+                     <use xlink:href="img/sprite.svg#stick"></use>
+                  </svg>
+                  <span>Заказать проект</span>
+               </button>
+               <a href='contact.html' class="btn-reset btn header__contact">
+                  <span>контакты</span>
+               </a>
+               <nav class="nav">
+                  <div class="nav__content">
+                     <a href="tel:+7 495 961 78 38" class="nav__tel link">+7 495 961-78-38</a>
+                     <ul class="list-reset nav__list">
+                        <li class="nav__item acardion">
+                           <button class="btn-reset acardion__btn link">
+                              <span>Частные интерьеры</span>
+                           </button>
+                           <div class="acardion__body">
+                              <ul class="list-reset acardion__content">
+                                 <li class="acardion__item">
+                                    <a href="interiors.html#command" class="acardion__link link">О нас</a>
+                                 </li>
+                                 <li class="acardion__item">
+                                    <a href="interiors.html#levels" class="acardion__link link">Этапы работ</a>
+                                 </li>
+                                 <li class="acardion__item">
+                                    <a href="interiors.html#interiorsPortfolio" class="acardion__link link">Портфолио</a>
+                                 </li>
+                                 <li class="acardion__item">
+                                    <a href="interiors.html#service" class="acardion__link link">Услуги</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="nav__item">
+                           <a href="interiors.html" class="nav__link link">Общественные пространства</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="news.html" class="nav__link link">Статьи</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="publications.html" class="nav__link link">Публикации</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="contact.html" class="nav__link link">Контакты</a>
+                        </li>
+                     </ul>
+                     <div class="nav__socials">
+                        <a href="#" class="whatsap social__link">
+                           <svg>
+                              <use xlink:href="img/sprite.svg#whatsap"></use>
+                           </svg>
+                        </a>
+                        <a href="#" class="tg social__link">
+                           <svg>
+                              <use xlink:href="img/sprite.svg#tg"></use>
+                           </svg>
+                        </a>
+                     </div>
+                     <button data-popupId="popupForm" class="btn-reset btn header__project popup__link">
+                        <svg class="header__ico">
+                           <use xlink:href="img/sprite.svg#stick"></use>
+                        </svg>
+                        <span>Заказать проект</span>
+                     </button>
+                  </div>
+               </nav>
+            </div>
+         </header>
+         <main class="main">
+            <section id='hero' class="hero">
+    <div class="hero__container">
+        <div class="swiper hero__content">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero__slide">
+                    <div class="hero__img">
+                        <picture>
+                            <source srcset="/img/hero01.webp" type="image/webp">
+                            <img loading="lazy" src="/img/hero01.jpg" class="img-cover" width="1506" height="900" alt="hero img">
+                        </picture>
+                    </div>
+                    <div class="hero__info">
+                        <span class="hero__description">TASHIMI </span>
+                        <h1 class="hero__title text-anim">Проектирование пространств,<br>создание<br><span class='yellow'>впечатлений</span>.</h1>
+                        <p class="hero__text">Яркие решения для уютного завтра — ваш уникальный,
+                            современный дом, созданный с любовью.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide hero__slide">
+                    <div class="hero__img">
+                        <picture>
+                            <source srcset="/img/hero02.webp" type="image/webp">
+                            <img loading="lazy" src="/img/hero02.jpg" class="img-cover" width="1506" height="900" alt="hero img">
+                        </picture>
+                    </div>
+                    <div class="hero__info">
+                        <span class="hero__description">TASHIMI </span>
+                        <h1 class="hero__title text-anim">Другой текст,<br><span class='yellow'>для теста</span>.</h1>
+                        <p class="hero__text">Яркие решения для уютного завтра — ваш уникальный,
+                            современный дом, созданный с любовью.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide hero__slide">
+                    <div class="hero__img">
+                        <picture>
+                            <source srcset="/img/hero01.webp" type="image/webp">
+                            <img loading="lazy" src="/img/hero01.jpg" class="img-cover" width="1506" height="900" alt="hero img">
+                        </picture>
+                    </div>
+                    <div class="hero__info">
+                        <span class="hero__description">TASHIMI </span>
+                        <h1 class="hero__title text-anim">Проектирование пространств,<br>создание<br><span class='yellow'>впечатлений</span>.</h1>
+                        <p class="hero__text">Яркие решения для уютного завтра — ваш уникальный,
+                            современный дом, созданный с любовью.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__btns">
+                <a href='interiors.html' class="btn-reset btn hero__btn">
+                    <span>Частные интерьеры</span>
+                </a>
+                <a href='interiors.html' class="btn-reset btn hero__btn">
+                    <span>Общественные пространства</span>
+                </a>
+            </div>
+            <div class="hero__nav">
+                <a href='#hero' class="hero__item scroll-link">
+                    <span>Главная</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero01"></use>
+                    </svg>
+                </a>
+                <a href='#about' class="hero__item scroll-link">
+                    <span>о нас</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero02"></use>
+                    </svg>
+                </a>
+                <a href='#portfolio' class="hero__item scroll-link">
+                    <span>портфолио</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero03"></use>
+                    </svg>
+                </a>
+                <a href='#news' class="hero__item scroll-link">
+                    <span>Статьи</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero04"></use>
+                    </svg>
+                </a>
+                <a href='#publications' class="hero__item scroll-link">
+                    <span>публикации</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero05"></use>
+                    </svg>
+                </a>
+                <a href='#reviews' class="hero__item scroll-link">
+                    <span>отзывы</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero06"></use>
+                    </svg>
+                </a>
+                <a href='#application' class="hero__item scroll-link">
+                    <span>контакты</span>
+                    <svg>
+                        <use xlink:href="img/sprite.svg#hero07"></use>
+                    </svg>
+                </a>
+                <div class="hero__arrow">
+                    <img src="/img/svg/heroArrow.svg" class="img-contain" width="12" height="97" alt="arrow">
+                </div>
+            </div>
+            <div class="hero__pagination"></div>
+        </div>
+    </div>
+</section>
+
+            <section id='about' class="about">
+    <div class="about__img">
+        <img loading="lazy" src="/img/svgImg/aboutBack.svg" class='img-cover' width="1560" height="1220" alt="about ico">
+    </div>
+    <div class="about__decor" data-aos="fade-left" data-aos-once="true" data-aos-anchor-placement="bottom-bottom">
+        <picture>
+            <source srcset="/img/aboutDecor.webp" type="image/webp">
+            <img loading="lazy" src="/img/aboutDecor.png" class="img-contain" width="200" height="378" alt="about decor">
+        </picture>
+    </div>
+    <div class="container about__container">
+        <div class="about__header">
+            <div class="about__left">
+                <span class="about__description">О нас</span>
+                <h2 class="about__title">Ваши мечты<br>
+                    Наше воплощение
+                </h2>
+            </div>
+            <div class="about__right">
+                <p class="about__text">Студия дизайна «TASHIMI» создает уникальные и функциональные пространства,
+                    отражающие личность и стиль каждого клиента. Мы работаем с индивидуальными
+                    концепциями, материалами высокого качества и современными технологиями,
+                    чтобы превратить мечты в реальность.</p>
+                <p class="about__text">Улучшая окружающую среду, обогащая опыт, стремясь к совершенству.</p>
+            </div>
+        </div>
+        <ul class="list-reset about__items">
+            <li class="about__item">
+                <div class="about__ico">
+                    <img loading="lazy" src="/img/svg/about01.svg" width="78" height="78" alt="about ico">
+                </div>
+                <span class="about__name">Индивидуальный подход</span>
+                <p class="about__describe">Каждый наш проект уникален и разрабатывается с учетом ваших пожеланий, образа жизни и предпочтений, обеспечивая максимальное соответствие ожиданиям и потребностям.</p>
+            </li>
+            <li class="about__item">
+                <div class="about__ico">
+                    <img loading="lazy" src="/img/svg/about02.svg" width="69" height="69" alt="about ico">
+                </div>
+                <span class="about__name">Клиентоориентированность</span>
+                <p class="about__describe">Дизайнер сопровождает и поддерживает вас на протяжение всего необходимого для реализации проекта времени, а подробные понятные чертежи обеспечивают правильное выполнение работ строительной бригадой.</p>
+            </li>
+            <li class="about__item">
+                <div class="about__ico">
+                    <img loading="lazy" src="/img/svg/about03.svg" width="69" height="69" alt="about ico">
+                </div>
+                <span class="about__name">Оптимальное планирование пространства</span>
+                <p class="about__describe">Мы эффективно используем каждый квадратный метр для создания удобного и гармоничного пространства, сочетающего в себе красоту и практичность.</p>
+            </li>
+            <li class="about__item">
+                <div class="about__ico">
+                    <img loading="lazy" src="/img/svg/about04.svg" width="64" height="62" alt="about ico">
+                </div>
+                <span class="about__name">Опыт работы с 2010 г.</span>
+                <p class="about__describe">Множество реализованных проектов привели нас не только к наработке связей с поставщиками и знанию рынка, но также и к пониманию тонкостей работы строителей и смежных специалистов.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+            <section id='portfolio' class="portfolio">
+    <div class="portfolio__container">
+        <h2 class="portfolio__title" data-aos data-aos-once="true" data-aos-anchor-placement="bottom-bottom">Портфолио</h2>
+        <div class="portfolio__items">
+            <a href='project.html' class="portfolio__item portfolio__item-big">
+                <picture>
+                    <source srcset="/img/portfolio01.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio01.jpg" class="img-cover" width="775" height="526" alt="portfolio img">
+                </picture>
+                <div class="portfolio__content">
+                    <div class="portfolio__ico">
+                        <img loading="lazy" src="/img/svg/arrow.svg" class="img-contain" width="45" height="84" alt="arrow">
+                    </div>
+                    <div class="portfolio__info">
+                        <span class="portfolio__name">Интерьер квартиры в ЖК Ясное (70 кв.м)</span>
+                        <p class="portfolio__description">Частные интерьеры</p>
+                    </div>
+                </div>
+            </a>
+            <a href='project.html' class="portfolio__item portfolio__item-big">
+                <picture>
+                    <source srcset="/img/portfolio02.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio02.jpg" class="img-cover" width="775" height="526" alt="portfolio img">
+                </picture>
+                <div class="portfolio__content">
+                    <div class="portfolio__ico">
+                        <img loading="lazy" src="/img/svg/arrow.svg" class="img-contain" width="45" height="84" alt="arrow">
+                    </div>
+                    <div class="portfolio__info">
+                        <span class="portfolio__name">Интерьер дома в д. Юсупово (120 кв.м)</span>
+                        <p class="portfolio__description">Частные интерьеры</p>
+                    </div>
+                </div>
+            </a>
+            <a href='project.html' class="portfolio__item">
+                <picture>
+                    <source srcset="/img/portfolio03.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio03.jpg" class="img-cover" width="775" height="526" alt="portfolio img">
+                </picture>
+                <div class="portfolio__content">
+                    <div class="portfolio__ico">
+                        <img loading="lazy" src="/img/svg/arrow.svg" class="img-contain" width="45" height="84" alt="arrow">
+                    </div>
+                    <div class="portfolio__info">
+                        <span class="portfolio__name">Весенний нтерьер квартиры в ЖК Красная Пресня (70 кв.м)</span>
+                        <p class="portfolio__description">Частные интерьеры</p>
+                    </div>
+                </div>
+            </a>
+            <a href='project.html' class="portfolio__item">
+                <picture>
+                    <source srcset="/img/portfolio04.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio04.jpg" class="img-cover" width="775" height="526" alt="portfolio img">
+                </picture>
+                <div class="portfolio__content">
+                    <div class="portfolio__ico">
+                        <img loading="lazy" src="/img/svg/arrow.svg" class="img-contain" width="45" height="84" alt="arrow">
+                    </div>
+                    <div class="portfolio__info">
+                        <span class="portfolio__name">Интерьер «Птички» в загородном доме</span>
+                        <p class="portfolio__description">Частные интерьеры</p>
+                    </div>
+                </div>
+            </a>
+            <a href='project.html' class="portfolio__item">
+                <picture>
+                    <source srcset="/img/portfolio05.webp" type="image/webp">
+                    <img loading="lazy" src="/img/portfolio05.jpg" class="img-cover" width="775" height="526" alt="portfolio img">
+                </picture>
+                <div class="portfolio__content">
+                    <div class="portfolio__ico">
+                        <img loading="lazy" src="/img/svg/arrow.svg" class="img-contain" width="45" height="84" alt="arrow">
+                    </div>
+                    <div class="portfolio__info">
+                        <span class="portfolio__name">Ретро интерьер «90-е» в квартире</span>
+                        <p class="portfolio__description">Частные интерьеры</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="interiors.html#interiorsPortfolio" class="btn-reset btn portfolio__btn">
+            <span>поСмотреть все работы</span>
+        </a>
+    </div>
+</section>
+            <section id='news' class="news">
+    <div class="news__back">
+        <img loading="lazy" src="/img/svgImg/newsBack.svg" class="img-contain" width="582" height="683" alt="news back">
+    </div>
+    <div class="news__decorOne" data-aos="fade-right" data-aos-once="true" data-aos-anchor-placement="bottom-bottom">
+        <picture>
+            <source srcset="/img/newsDecorOne.webp" type="image/webp">
+            <img loading="lazy" src="/img/newsDecorOne.png" class="img-contain" width="210" height="315" alt="news decor">
+        </picture>
+    </div>
+    <div class="news__decorTwo" data-aos="fade-left" data-aos-once="true" data-aos-anchor-placement="bottom-bottom">
+        <picture>
+            <source srcset="/img/newsDecorTwo.webp" type="image/webp">
+            <img loading="lazy" src="/img/newsDecorTwo.png" class="img-contain" width="196" height="237" alt="news decor">
+        </picture>
+    </div>
+    <div class="container news__container">
+        <h2 class="title new__title">Статьи</h2>
+        <div class="list-reset news__items">
+            <a href="article.html" class="news__item">
+                <div class="news__img">
+                    <picture>
+                        <source srcset="/img/news01.webp" type="image/webp">
+                        <img loading="lazy" src="/img/news01.jpg" class="img-cover" width="433" height="266" alt="news img">
+                    </picture>
+                </div>
+                <div class="news__content">
+                    <div class="news__date">
+                        <span class='news__days'>30.04</span>
+                        <span class="news__year">2024</span>
+                    </div>
+                    <div class="news__info">
+                        <span class="news__name">Хрупкость и целесообразность хранения вещей</span>
+                        <p class="news__text">Современный интерьер должен быть не только стильным, но и удобным, функциональным и отражать характер хозяина.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="article.html" class="news__item">
+                <div class="news__img">
+                    <picture>
+                        <source srcset="/img/news02.webp" type="image/webp">
+                        <img loading="lazy" src="/img/news02.jpg" class="img-cover" width="433" height="266" alt="news img">
+                    </picture>
+                </div>
+                <div class="news__content">
+                    <div class="news__date">
+                        <span class='news__days'>02.05</span>
+                        <span class="news__year">2024</span>
+                    </div>
+                    <div class="news__info">
+                        <span class="news__name">Современный интерьер должен быть не только стильным</span>
+                        <p class="news__text">Тренды в интерьерах не меняются ежесезонно, как на одежду. Поэтому в 2024 году сохраняется тенденция 2023 года на экологичность.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="article.html" class="news__item">
+                <div class="news__img">
+                    <picture>
+                        <source srcset="/img/news03.webp" type="image/webp">
+                        <img loading="lazy" src="/img/news03.jpg" class="img-cover" width="433" height="266" alt="news img">
+                    </picture>
+                </div>
+                <div class="news__content">
+                    <div class="news__date">
+                        <span class='news__days'>14.06</span>
+                        <span class="news__year">2024</span>
+                    </div>
+                    <div class="news__info">
+                        <span class="news__name">Оздоравливающий дизайн</span>
+                        <p class="news__text">Одна из тенденций последних<br>лет — биофильный дизайн, то есть максимальное соприкосновение с природой.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="news.html" class="btn-reset btn news__btn">
+            <span>все статьи</span>
+        </a>
+    </div>
+</section>
+            <section id='publications' class="publications">
+    <div class="publications__container">
+        <div class="publications__back">
+            <picture>
+                <source srcset="/img/publicationsBack.webp" type="image/webp">
+                <img loading="lazy" src="/img/publicationsBack.png" width="674" height="820" alt="publications back">
+            </picture>
+        </div>
+        <h2 class="title publications__title">Публикации</h2>
+        <div class="publications__items">
+            <a href="article.html" class="publications__item">
+                <div class="publications__img">
+                    <picture>
+                        <source srcset="/img/publications01.webp" type="image/webp">
+                        <img loading="lazy" src="/img/publications01.jpg" class="img-cover" width="266" height="341" alt="publications picture">
+                    </picture>
+                </div>
+                <span class="publications__name">Новый номер INTERIOR SALON посвящен декору</span>
+                <p class="publications__text">О нашем проекте современного интерьера «Нижняя Масловка» в журнале Vogue.</p>
+            </a>
+            <a href="article.html" class="publications__item">
+                <div class="publications__img">
+                    <picture>
+                        <source srcset="/img/publications02.webp" type="image/webp">
+                        <img loading="lazy" src="/img/publications02.jpg" class="img-cover" width="266" height="341" alt="publications picture">
+                    </picture>
+                </div>
+                <span class="publications__name">Масштабная экспозиция в венецианском стиле</span>
+                <p class="publications__text">О нашем проекте современного интерьера «Нижняя Масловка» в журнале Vogue.</p>
+            </a>
+            <a href="article.html" class="publications__item">
+                <div class="publications__img">
+                    <picture>
+                        <source srcset="/img/publications03.webp" type="image/webp">
+                        <img loading="lazy" src="/img/publications03.jpg" class="img-cover" width="266" height="341" alt="publications picture">
+                    </picture>
+                </div>
+                <span class="publications__name">Мягкий минимализм в Vogue</span>
+                <p class="publications__text">О нашем проекте современного интерьера «Нижняя Масловка» в журнале Vogue.</p>
+            </a>
+        </div>
+        <a href="publications.html" class="btn-reset btn publications__btn"><span>все публикации</span></a>
+    </div>
+</section>
+            <section id='reviews' class="reviews">
+    <div class="container reviews__container">
+        <h2 class="title reviews__title">Отзывы</h2>
+        <div class="reviews__delete__this__block" style='background-color: silver; aspect-ratio: 2.81431/1; width: 100%;'></div>
+    </div>
+</section>
+            <section id='application' class="application">
+               <div class="application__decor">
+                  <img loading="lazy" src="img/svgImg/applicationVector.svg" class="img-contain" width="338" height="386" alt="decor">
+               </div>
+               <div class="application__img">
+                  <picture>
+                     <source srcset="img/applicationDecor.webp" type="image/webp">
+                     <img loading="lazy" src="img/applicationDecor.png" class="img-contain" width="520" height="377" alt="decor">
+                  </picture>
+               </div>
+               <div class="container application___container">
+                  <h2 class="application__title">ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ РАСЧЕТ ДИЗАЙН-ПРОЕКТА</h2>
+                  <form class="application__form">
+                     <div class="input">
+                        <div class="input__ico">
+                           <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                        </div>
+                        <input type="text" class="field" placeholder='Ваше имя'>
+                     </div>
+                     <div class="input">
+                        <div class="input__ico">
+                           <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                        </div>
+                        <input type="text" class="field __tel" placeholder='Телефон'>
+                     </div>
+                     <div class="input">
+                        <div class="input__ico">
+                           <img loading="lazy" src="img/svg/field03.svg" class="img-contain" width="16" height="16" alt="input ico">
+                        </div>
+                        <input type="text" class="field" placeholder='Площадь проекта'>
+                     </div>
+                     <button class="btn-reset btn application__btn"><span>Отправить заявку</span></button>
+                     <div class="input">
+                        <div class="input__ico">
+                           <img loading="lazy" src="img/svg/field04.svg" class="img-contain" width="16" height="16" alt="input ico">
+                        </div>
+                        <input type="text" class="field" placeholder='Тип помещения'>
+                     </div>
+                     <span class="application__text">Отправляя заявку, я принимаю условия <a data-popupId='popupText' href='#' class='link popup__link'>обработки персональных данных.</a></span>
+                  </form>
+               </div>
+            </section>
+         </main>
+         <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__column">
+        <div class="footer__logo">
+          <img src="/img/footerLogo.png" class="img-contain" width="122" height="51" alt="logo">
+        </div>
+        <span class="footer__text">© 2023 tashimi.ru</span>
+      </div>
+      <div class="footer__column footer__column-contact">
+        <a href="tel:+ 7 968 861 28 30" class="footer__tel link">+ 7 968 861 28 30</a>
+        <div class="footer__socials">
+          <a href="#" class="whatsap social__link">
+            <svg>
+              <use xlink:href="img/sprite.svg#whatsap"></use>
+            </svg>
+          </a>
+          <a href="#" class="tg social__link">
+            <svg>
+              <use xlink:href="img/sprite.svg#tg"></use>
+            </svg>
+          </a>
+        </div>
+        <a href="mailto:art@tashimi.ru" class="footer__mail link">art@tashimi.ru</a>
+        <button data-popupId="popupTel" class="btn-reset btn footer__btn popup__link"><span>Перезвоните мне</span></button>
+      </div>
+      <div class="footer__column footer__column-links">
+        <span class='footer__link'>Частные интерьеры</span>
+        <a href="interiors.html#command" class="footer__link footer__link-small link">О нас</a>
+        <a href="interiors.html#interiorsPortfolio" class="footer__link footer__link-small link">Портфолио</a>
+        <a href="service.html" class="footer__link footer__link-small link">Услуги</a>
+      </div>
+      <div class="footer__column footer__column-links">
+        <a href='interiors.html' class='footer__link link'>Общественные пространства</a>
+      </div>
+      <div class="footer__column footer__column-links">
+        <a href='news.html' class='footer__link link'>Статьи</a>
+        <a href='publications.html' class='footer__link link'>Публикации</a>
+        <a href='contact.html' class='footer__link link'>Контакты</a>
+      </div>
+    </div>
+    <span class="footer__description">Сделано в <a href='#' class='link'> SOMA design</a></span>
+  </div>
+</footer>
+
+         <div id='popupForm' class="popup">
+    <div class="popup__body">
+        <div class="container popup__content">
+            <button class="btn-reset close__popup popup__close"></button>
+            <div class="application__decor">
+                <img loading="lazy" src="img/svgImg/applicationVector.svg" class="img-contain" width="338" height="386" alt="decor">
+            </div>
+            <h2 class="application__title">ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ РАСЧЕТ ДИЗАЙН-ПРОЕКТА</h2>
+            <form class="application__form">
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Ваше имя'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field __tel" placeholder='Телефон'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field03.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Площадь проекта'>
+                </div>
+                <button class="btn-reset btn application__btn"><span>Отправить заявку</span></button>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field04.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Тип помещения'>
+                </div>
+                <span class="application__text">Отправляя заявку, я принимаю условия <a href='#' data-popupId='popupText' class='link popup__link'>обработки персональных данных.</a></span>
+            </form>
+        </div>
+    </div>
+</div>
+<div id='popupText' class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <button class="btn-reset  popup__close close__popup"></button>
+            <div class="container popup__text-page">
+                <span class="popup__title">Заголовок раздела</span>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__title">Заголовок раздела</span>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+                <span class="popup__name">Подзаголовок раздела</span>
+                <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis aliquam quos facere quia atque laudantium unde animi, sint reiciendis.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id='popupTel' class="popup">
+    <div class="popup__body">
+        <div class="container popup__content">
+            <button class="btn-reset close__popup popup__close"></button>
+            <div class="application__decor">
+                <img loading="lazy" src="img/svgImg/applicationVector.svg" class="img-contain" width="338" height="386" alt="decor">
+            </div>
+            <h2 class="application__title">ОСТАВЬТЕ ТЕЛЕФОН И МЫ ВАМ ПЕРЕЗВОНИМ</h2>
+            <form class="application__form application__form-tel">
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field01.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field" placeholder='Ваше имя'>
+                </div>
+                <div class="input">
+                    <div class="input__ico">
+                        <img loading="lazy" src="img/svg/field02.svg" class="img-contain" width="16" height="16" alt="input ico">
+                    </div>
+                    <input type="text" class="field __tel" placeholder='Телефон'>
+                </div>
+                <button class="btn-reset btn application__btn"><span>Отправить</span></button>
+                <span class="application__text">Отправляя заявку, я принимаю условия <a href='#' data-popupId='popupText' class='link popup__link'>обработки персональных данных.</a></span>
+            </form>
+        </div>
+    </div>
+</div>
+      </div>
+   </body>
+
+</html>
